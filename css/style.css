@@ -161,13 +161,13 @@ img {
     padding: 5px 20px;
 
     columns: 2; /* Make the pictures appear in two columns */
-    column-gap: 12px;
+    column-gap: 6px;
 }
 
 .pictures_box img {
     /* Dictates how pictures inside the designated section for them should open*/
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
     padding: 20px 20px;
 }
 
