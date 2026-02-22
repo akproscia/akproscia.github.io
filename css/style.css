@@ -1,11 +1,8 @@
+/*
+Custom color palette
+*/
+
 :root {
-    --cream: #fff3f0;
-    --peach: #ffb8a2;
-    --coral: #ff6f61;
-    --med_blue: #2f6fa4;
-    --navy_blue: #132b4c;
-
-
     --dark_blue: #2b6777;
     --light_blue: #c8d8e4;
     --white: #ffffff;
@@ -45,7 +42,7 @@ header {
     
     display: flex;
     align-items: center;
-    justify-content: space-between; /* This make it so the elements are on opposite sides of the page */
+    justify-content: space-between; /* This makes it so the elements are on opposite sides of the page */
 }
 
 main {
@@ -124,6 +121,7 @@ a {
 
 a:hover, 
 a:focus-visible {
+    /* Changes the color of links when the cursor hovers over them. */
     color: var(--light_green);
 }
 
@@ -154,6 +152,7 @@ img {
 }
 
 .pictures_box img {
+    /* Dictates how pictures inside the designated section for them should open*/
     width: 100%;
     margin-bottom: 12px;
     padding: 20px, 20px;
