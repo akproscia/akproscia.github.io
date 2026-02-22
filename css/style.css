@@ -158,17 +158,17 @@ img {
     background-color: var(--white);
     border: 2px solid var(--light_green);
     box-shadow: 0 0 0 0;
-    padding: 5px 20px;
+    margin-top: 30px;
+    padding: 20px 20px;
 
     columns: 2; /* Make the pictures appear in two columns */
-    column-gap: 6px;
+    column-gap: 12px;
 }
 
 .pictures_box img {
     /* Dictates how pictures inside the designated section for them should open*/
     width: 100%;
-    margin-bottom: 6px;
-    padding: 20px 20px;
+    margin-bottom: 12px;
 }
 
 
