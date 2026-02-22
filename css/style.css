@@ -34,11 +34,17 @@ body {
     side margin and display the pictures in one column. */
 
     main {
+        /* Eliminates the side margin*/
         width: 100%;
     }
 
     .pictures_box {
+        /* Displays photos in one column*/
         columns: 1;
+    }
+
+    nav ul {
+        flex-direction: column;
     }
 }
 
