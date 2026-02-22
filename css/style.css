@@ -143,12 +143,13 @@ img {
 }
 
 .pictures_box {
+    /* Different type of box, because I wanted the picture box to look a bit different. */
     background-color: var(--white);
     border: var(--light_green), solid, 2px;
     box-shadow: 0 0 0 0;
     padding: 5px 20px;
 
-    columns: 2;
+    columns: 2; /* Make the pictures appear in two columns */
     column-gap: 12px;
 }
 
@@ -161,6 +162,9 @@ img {
 
 
 /*
+
+/* I scrapped these because I condensed my code and put the details for these in the "div" section.
+
 .education {
     /* Specifies format for the 
     education box on my second page 
