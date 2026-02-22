@@ -29,6 +29,19 @@ body {
 
 }
 
+@media (max-width: 640) {
+    /* If someone is viewing it on their phone, decrease the 
+    side margin and display the pictures in one column. */
+
+    main {
+        width: 100%;
+    }
+
+    .pictures_box {
+        columns: 1;
+    }
+}
+
 
 /* -------------
 ---- Layout ----
@@ -36,7 +49,7 @@ body {
 
 header {
     background-color: var(--light_blue);
-    border: var(--dark_blue), solid, 2px;
+    border: 2px solid var(--dark_blue);
     padding: 10px 20px;
     margin-top: 0px;
     
@@ -102,7 +115,7 @@ footer ul {
 }
 
 div {
-    border: var(--darker_gray), solid, 2px;
+    border: 2px solid var(--darker_gray);
     background-color: var(--gray);
     
     box-shadow: 2px 2px 2px var(--light_green);
@@ -143,7 +156,7 @@ img {
 .pictures_box {
     /* Different type of box, because I wanted the picture box to look a bit different. */
     background-color: var(--white);
-    border: var(--light_green), solid, 2px;
+    border: 2px solid var(--light_green);
     box-shadow: 0 0 0 0;
     padding: 5px 20px;
 
@@ -155,7 +168,7 @@ img {
     /* Dictates how pictures inside the designated section for them should open*/
     width: 100%;
     margin-bottom: 12px;
-    padding: 20px, 20px;
+    padding: 20px 20px;
 }
 
 
@@ -193,7 +206,7 @@ img {
 
 .work_experience {
     background-color: var(--white);
-    border: var(--darker_gray), solid, 0.5px;
+    border: 0.5px solid var(--darker_gray);
     box-shadow: 1px 1px 1px var(--light_green);
     padding: 5px 20px;
     margin: 10px auto;
